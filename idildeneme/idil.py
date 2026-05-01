@@ -18,7 +18,7 @@ from datetime import datetime, timedelta
 from typing import Optional, Tuple, List
 
 # Configuration
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "ie360_price_project" / "data"
 RAW_DIR = DATA_DIR / "raw"
 
