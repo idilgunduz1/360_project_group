@@ -1,11 +1,6 @@
 """
 IE360 Electricity Price Forecasting - Final Version
 =====================================================
-Optimized for competition submission:
-- Output: [price1, price2, ..., price24] format
-- No backtesting (runs in <25 min)
-- Memory efficient
-- Uses only allowed libraries
 """
 
 import numpy as np
